@@ -1,0 +1,32 @@
+﻿@page "/employees"
+@inherits EmployeeListBase
+
+<h3>Employee List</h3>
+
+<div class="container">
+    <table class="table table-success">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Joining Date</th>
+                <th>Designation</th>
+                <th>Department</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var item in Employees)
+            {
+                <tr>
+                    <td>@item.Id</td>
+                    <td>@item.Name</td>
+                    <td>@item.JoiningDate.ToShortDateString()</td>
+                    <td>@item.Designation</td>
+                    <td>@item.Department</td>
+                </tr>
+            }
+        </tbody>
+
+    </table>
+</div>

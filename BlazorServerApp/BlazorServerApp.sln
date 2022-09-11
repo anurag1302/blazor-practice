@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorServer", "BlazorServer\BlazorServer.csproj", "{9CDADFBE-1A0C-4D82-B1B9-DB7E8546450F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorWebAssembly", "BlazorWebAssembly\BlazorWebAssembly.csproj", "{FC07765F-9834-49F0-833F-209B2A93C1C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{9BA16483-F5F3-4A65-A358-36981941A945}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{9CDADFBE-1A0C-4D82-B1B9-DB7E8546450F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9CDADFBE-1A0C-4D82-B1B9-DB7E8546450F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9CDADFBE-1A0C-4D82-B1B9-DB7E8546450F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FC07765F-9834-49F0-833F-209B2A93C1C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FC07765F-9834-49F0-833F-209B2A93C1C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FC07765F-9834-49F0-833F-209B2A93C1C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FC07765F-9834-49F0-833F-209B2A93C1C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA16483-F5F3-4A65-A358-36981941A945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA16483-F5F3-4A65-A358-36981941A945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA16483-F5F3-4A65-A358-36981941A945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA16483-F5F3-4A65-A358-36981941A945}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

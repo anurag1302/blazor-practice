@@ -7,3 +7,5 @@
 /BlazorServerApp/BlazorServer/bin/Debug/net6.0
 /BlazorServerApp/BlazorWebAssembly/bin/Debug/net6.0
 /BlazorServerApp/BlazorWebAssembly/obj
+/BlazorServerApp/DataAccess/bin/Debug/netstandard2.1
+/BlazorServerApp/DataAccess/obj
